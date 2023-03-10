@@ -13,32 +13,31 @@
               <h3 class="headline headline--small">Explore</h3>
               <nav class="nav-list">
                 <ul>
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Programs</a></li>
-                  <li><a href="#">Events</a></li>
-                  <li><a href="#">Campuses</a></li>
+                  <li><a href="#">Sobre Nós</a></li>
+                  <li><a href="#">Programas</a></li>
+                  <li><a href="#">Eventos</a></li>
+                  <li><a href="#">Campus</a></li>
                 </ul>
               </nav>
             </div>
 
             <div class="site-footer__col-three">
-              <h3 class="headline headline--small">Learn</h3>
+              <h3 class="headline headline--small">Apreenda</h3>
               <nav class="nav-list">
                 <ul>
-                  <li><a href="#">Legal</a></li>
-                  <li><a href="#">Privacy</a></li>
-                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Privacidade</a></li>
+                  <li><a href="#">Careiras</a></li>
                 </ul>
               </nav>
             </div>
           </div>
 
           <div class="site-footer__col-four">
-            <h3 class="headline headline--small">Connect With Us</h3>
+            <h3 class="headline headline--small">Conecte Conosco</h3>
             <nav>
               <ul class="min-list social-icons-list group">
                 <li>
-                  <a href="#" class="social-color-facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                  <a href="#" class="social-color-whatsapp"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
                 </li>
                 <li>
                   <a href="#" class="social-color-twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
@@ -50,7 +49,7 @@
                   <a href="#" class="social-color-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                 </li>
                 <li>
-                  <a href="#" class="social-color-instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                  <a href="https://www.instagram.com/williamramos095" class="social-color-instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                 </li>
               </ul>
             </nav>
@@ -58,6 +57,6 @@
         </div>
       </div>
     </footer>
-<?php wp_footer(  )?>
+<?php wp_footer()?>
 </body>
 </html>
