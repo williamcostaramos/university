@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php wp_head() ?>
 </head>
-<body>
+<body <?php body_class()?>>
 <header class="site-header">
       <div class="container">
         <h1 class="school-logo-text float-left">
@@ -16,13 +16,7 @@
         <i class="site-header__menu-trigger fa fa-bars" aria-hidden="true"></i>
         <div class="site-header__menu group">
           <nav class="main-navigation">
-            <ul>
-              <li><a href="#">Sobre Nós</a></li>
-              <li><a href="#">Programas</a></li>
-              <li><a href="#">Eventos</a></li>
-              <li><a href="#">Campus</a></li>
-              <li><a href="#">Blog</a></li>
-            </ul>
+            <?php wp_nav_menu(array('theme_location'=>'headerMenuMain'))?>
           </nav>
           <div class="site-header__util">
             <a href="#" class="btn btn--small btn--orange float-left push-right">Login</a>

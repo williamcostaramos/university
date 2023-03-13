@@ -12,22 +12,14 @@
             <div class="site-footer__col-two">
               <h3 class="headline headline--small">Explore</h3>
               <nav class="nav-list">
-                <ul>
-                  <li><a href="#">Sobre Nós</a></li>
-                  <li><a href="#">Programas</a></li>
-                  <li><a href="#">Eventos</a></li>
-                  <li><a href="#">Campus</a></li>
-                </ul>
+                <?php wp_nav_menu(array('theme_location'=>'footerMenuExplore'))?>
               </nav>
             </div>
 
             <div class="site-footer__col-three">
               <h3 class="headline headline--small">Apreenda</h3>
               <nav class="nav-list">
-                <ul>
-                  <li><a href="#">Privacidade</a></li>
-                  <li><a href="#">Careiras</a></li>
-                </ul>
+                <?php wp_nav_menu(array('theme_location'=>'footerMenuLearn'))?>
               </nav>
             </div>
           </div>

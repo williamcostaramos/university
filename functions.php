@@ -13,6 +13,9 @@ add_filter('wp_enqueue_scripts','university_files');
 
 function university_feature(){
     add_theme_support('title-tag');
+    register_nav_menu("headerMenuMain", "Menu Principal");
+    register_nav_menu("footerMenuExplore", "Footer Explore");
+    register_nav_menu("footerMenuLearn", "Footer Aprenda");
 }
 
 add_filter('after_setup_theme', 'university_feature');
